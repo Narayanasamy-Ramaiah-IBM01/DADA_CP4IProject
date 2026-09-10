@@ -10,35 +10,26 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Narayanasamy-Ramaiah-IBM01
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
-- serviceName: project.dada_cp4i.ftp.connections:FTP_tst
+- serviceName: project.dada_cp4i.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:soapCRMTest
   packages:
   - name: DADA_CP4IProject
     version: "1.0"
   - name: TPP11
     version: "1.0"
-- serviceName: project.dada_cp4i.ftp.connections:ftp_test_2_acc
-  packages:
-  - name: DADA_CP4IProject
-    version: "1.0"
-  - name: TPP11
-    version: "1.0"
-- serviceName: project.dada_cp4i.integrations:FTP_Test
-  packages:
-  - name: DADA_CP4IProject
-    version: "1.0"
-  - name: TPP11
-    version: "1.0"
-- serviceName: pub.client.ftp:ls
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1126
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: project.dada_cp4i.integrations:GlobalVarTest
   packages:
   - name: DADA_CP4IProject
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: TPP11:readGlobalVariable
   packages:
   - name: TPP11
@@ -53,12 +44,20 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+- serviceName: pub.client.ftp:ls
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
 - serviceName: project.dada_cp4i.integrations:smtp_test
   packages:
   - name: DADA_CP4IProject
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: pub.client:smtp
   packages:
   - name: WmPublic
@@ -69,31 +68,13 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: project.dada_cp4i.soap.connectors.SOAPTest_.connectors:Soap_WSDL_PortType_SOAPTest
   packages:
   - name: DADA_CP4IProject
     version: "1.0"
   - name: TPP11
     version: "1.0"
-- serviceName: pub.client:soapClient
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1126
-- serviceName: project.dada_cp4i.pgp.connections:PGP_RSA_Key
-  packages:
-  - name: DADA_CP4IProject
-    version: "1.0"
-  - name: TPP11
-    version: "1.0"
-- serviceName: project.dada_cp4i.smtp.connections:smtp_test
-  packages:
-  - name: DADA_CP4IProject
-    version: "1.0"
-  - name: TPP11
-    version: "1.0"
-- serviceName: project.dada_cp4i.soap.connections:Soap_test
-  packages:
-  - name: DADA_CP4IProject
-    version: "1.0"
-  - name: TPP11
-    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
