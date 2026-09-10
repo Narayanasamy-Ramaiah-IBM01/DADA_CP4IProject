@@ -33,12 +33,6 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1126
-- serviceName: project.dada_cp4i.integrations:FTP_Test123
-  packages:
-  - name: DADA_CP4IProject
-    version: "1.0"
-  - name: TPP11
-    version: "1.0"
 - serviceName: project.dada_cp4i.integrations:GlobalVarTest
   packages:
   - name: DADA_CP4IProject
