@@ -11,6 +11,12 @@ packages:
   gitUsername: Narayanasamy-Ramaiah-IBM01
   gitBranch: main
 services:
+- serviceName: project.dada_cp4i.ftp.connections:FTP_tst
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dada_cp4i.integrations:GlobalVarTest
   packages:
   - name: DADA_CP4IProject

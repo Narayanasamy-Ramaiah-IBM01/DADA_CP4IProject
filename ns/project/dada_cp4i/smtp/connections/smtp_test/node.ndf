@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">smtp</value>
+  <value name="node_nsName">project.dada_cp4i.smtp.connections:smtp_test</value>
+  <value name="node_pkg">DADA_CP4IProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">DADA_CP4IProject.project.dada_cp4i.smtp.connections:smtp_test</value>
+  <value name="connectionName">smtp_test</value>
+  <value name="description"></value>
+  <value name="mailhost">smtp.gmail.com</value>
+  <value name="mailhostPort">465</value>
+  <value name="from">esbtest2dada@gmail.com</value>
+  <value name="authType">basic</value>
+  <value name="user">esbtest2dada@gmail.com</value>
+  <value name="pass">project.dada_cp4i.smtp.connections.smtp_test.pass</value>
+  <value name="token"></value>
+  <value name="transportLayerSecurity">implicit</value>
+  <value name="truststoreAlias"></value>
+  <value name="packageName">DADA_CP4IProject</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">abhk</value>
+    <value name="createdDate">2026-09-10T06:31:17.066457562Z</value>
+    <value name="modifiedBy">abhk</value>
+    <value name="lastModifiedDate">2026-09-10T06:31:17.066457562Z</value>
+  </record>
+</Values>
