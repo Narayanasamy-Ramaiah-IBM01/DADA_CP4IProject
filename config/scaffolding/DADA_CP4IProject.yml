@@ -9,3 +9,15 @@ services:
   packages:
   - name: DADA_CP4IProject
     version: "1.0"
+- serviceName: project.dada_cp4i.soap.connections:Soap_test
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+- serviceName: project.dada_cp4i.soap.connectors.SOAPTest_.connectors:Soap_WSDL_PortType_SOAPTest
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+- serviceName: pub.client:soapClient
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
