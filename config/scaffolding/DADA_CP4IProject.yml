@@ -23,6 +23,14 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.23
+- serviceName: project.dada_cp4i.ftp.connections:FTP_TEST
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
 - serviceName: project.dada_cp4i.integrations:GlobalVarTest
   packages:
   - name: DADA_CP4IProject
