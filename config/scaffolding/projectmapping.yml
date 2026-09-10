@@ -1,0 +1,7 @@
+version: "1.0"
+projectName: DADA_CP4IProject
+runtimes:
+- runtimeAlias: abhiERT
+  assets:
+  - name: abhk10thSept
+    type: DAF
