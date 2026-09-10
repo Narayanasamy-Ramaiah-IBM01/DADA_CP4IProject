@@ -5,6 +5,14 @@ packages:
 - name: DADA_CP4IProject
   gitBranch: master
 services:
+- serviceName: project.dada_cp4i.integrations:PGP_test
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+- serviceName: pub.security:signAndEncrypt
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
 - serviceName: project.dada_cp4i.pgp.connections:PGP_RSA_Key
   packages:
   - name: DADA_CP4IProject
