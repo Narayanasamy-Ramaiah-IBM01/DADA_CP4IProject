@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">ftpAccount</value>
+  <value name="node_nsName">project.dada_cp4i.ftp.connections:FTP_TEST</value>
+  <value name="node_pkg">DADA_CP4IProject</value>
+  <value name="is_public">false</value>
+  <record name="accountDetails" javaclass="com.wm.util.Values">
+    <null name="agentGroup"/>
+    <value name="agentId">f5e4ce046633424f9a188611f23b0aa8</value>
+    <value name="connectionName">FTP_TEST</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">ftpconnector</value>
+    <value name="connectorType">ftp</value>
+    <value name="description"></value>
+    <null name="instanceId"/>
+    <value name="keyAlias"></value>
+    <value name="keystoreAlias"></value>
+    <value name="password">*****</value>
+    <value name="projectName">DADA_CP4I</value>
+    <value name="providerName">TechnologyConnector</value>
+    <value name="serverhost">demo.wftpserver.com</value>
+    <value name="serverport">21</value>
+    <value name="timeout">60</value>
+    <value name="truststoreAlias"></value>
+    <null name="updateAsset"/>
+    <value name="username">demo</value>
+    <value name="passwordhandle">wm.is.admin.project.dada_cp4i.ftp.connections:FTP_TEST</value>
+  </record>
+  <value name="assetId">DADA_CP4IProject.project.dada_cp4i.ftp.connections:FTP_TEST</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">abhk</value>
+    <value name="createdDate">2026-09-10T07:45:15.837119173Z</value>
+    <value name="modifiedBy">abhk</value>
+    <value name="lastModifiedDate">2026-09-10T07:45:15.837119173Z</value>
+  </record>
+</Values>
