@@ -4,6 +4,11 @@ info:
 packages:
 - name: DADA_CP4IProject
   gitBranch: master
+- name: TPP11
+  gitServerName: narayana_shared
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: Narayanasamy-Ramaiah-IBM01
+  gitBranch: main
 services:
 - serviceName: project.dada_cp4i.integrations:soapTest
   packages:
