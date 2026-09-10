@@ -31,6 +31,18 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.23
+- serviceName: project.dada_cp4i.integrations:FTP_TEST
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+- serviceName: pub.client.ftp:ls
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
 - serviceName: project.dada_cp4i.integrations:GlobalVarTest
   packages:
   - name: DADA_CP4IProject
@@ -55,10 +67,6 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.23
-- serviceName: pub.client.ftp:ls
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1126
 - serviceName: project.dada_cp4i.integrations:smtp_test
   packages:
   - name: DADA_CP4IProject
