@@ -13,6 +13,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1126
+- serviceName: pub.security:decryptAndVerify
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
 - serviceName: project.dada_cp4i.pgp.connections:PGP_RSA_Key
   packages:
   - name: DADA_CP4IProject
