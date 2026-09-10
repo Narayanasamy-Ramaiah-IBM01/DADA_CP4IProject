@@ -17,6 +17,22 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+- serviceName: project.dada_cp4i.integrations:FTP_Test
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: pub.client.ftp:ls
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
+- serviceName: project.dada_cp4i.integrations:FTP_Test123
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dada_cp4i.integrations:GlobalVarTest
   packages:
   - name: DADA_CP4IProject
@@ -48,6 +64,12 @@ services:
   - name: WmPublic
     version: 12.1.0.0.1126
 - serviceName: project.dada_cp4i.pgp.connections:PGP_RSA_Key
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dada_cp4i.smtp.connections:smtp_test
   packages:
   - name: DADA_CP4IProject
     version: "1.0"
