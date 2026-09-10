@@ -53,6 +53,12 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1126
+- serviceName: project.dada_cp4i.integrations:ftp_flow
+  packages:
+  - name: DADA_CP4IProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dada_cp4i.integrations:smtp_test
   packages:
   - name: DADA_CP4IProject
