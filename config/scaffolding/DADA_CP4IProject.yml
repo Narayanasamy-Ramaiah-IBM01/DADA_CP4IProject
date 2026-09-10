@@ -1,0 +1,6 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: DADA_CP4IProject
+  gitBranch: master
