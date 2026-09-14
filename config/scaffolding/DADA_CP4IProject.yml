@@ -3,7 +3,10 @@ info:
   model: int-scaffold
 packages:
 - name: DADA_CP4IProject
-  gitBranch: master
+  gitServerName: narayana_shared
+  gitUrl: https://github.com/Narayanasamy-Ramaiah-IBM01
+  gitUsername: Narayanasamy-Ramaiah-IBM01
+  gitBranch: main
 - name: TPP11
   version: "1.0"
   gitServerName: narayana_shared
