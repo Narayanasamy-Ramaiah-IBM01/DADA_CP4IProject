@@ -5,6 +5,12 @@
   <value name="node_subtype">ftpAccount</value>
   <value name="node_nsName">project.dada_cp4i.ftp.connections:ftp_test_2_acc</value>
   <value name="node_pkg">DADA_CP4IProject</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">abhk</value>
+    <value name="createdDate">2026-09-10T06:33:45.168645010Z</value>
+    <value name="modifiedBy">narayanasamy.ramaiah@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-19T07:12:05.323716513Z</value>
+  </record>
   <value name="is_public">false</value>
   <record name="accountDetails" javaclass="com.wm.util.Values">
     <null name="agentGroup"/>
@@ -27,12 +33,9 @@
     <null name="updateAsset"/>
     <value name="username">demo</value>
     <value name="passwordhandle">wm.is.admin.project.dada_cp4i.ftp.connections:ftp_test_2_acc</value>
+    <value name="passwordChanged">true</value>
+    <value name="packageName">DADA_CP4IProject</value>
   </record>
   <value name="assetId">DADA_CP4IProject.project.dada_cp4i.ftp.connections:ftp_test_2_acc</value>
-  <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">abhk</value>
-    <value name="createdDate">2026-09-10T06:33:45.168645010Z</value>
-    <value name="modifiedBy">abhk</value>
-    <value name="lastModifiedDate">2026-09-10T06:33:45.168645010Z</value>
-  </record>
+  <value name="updateRSD">true</value>
 </Values>
